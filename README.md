@@ -26,7 +26,7 @@ Evaluation scripts are forked from CrowS-Pairs evaluation script: https://github
 
 Once rehydrated, segment sentences with `code/preproc/segment_articles.py`, then train a model with one of `code/finetune_*.py`.
 
-`data/tweetIDs.csv.zip`: TweetIDs for Twitter data used to finetune models. TweetIDs must be "rehydrated" using the Twitter API before they can be used. TweetIDs are provided for non-commericial research purposes only. Provided as ZIP due to large file size.
+`data/tweetIDs.csv.zip`: TweetIDs for Twitter data used to finetune models. TweetIDs must be "rehydrated" using the Twitter API before they can be used. TweetIDs are provided for non-commericial research purposes only. Provided as gzip due to large file size - you'll need to `gunzip` it first.
 
 ## Finetuning Scripts
 
