@@ -1,7 +1,7 @@
 # WinoQueer
 
 ## Paper
-Our paper, *WinoQueer: A Community-in-the-Loop Benchmark for Anti-LGBTQ+ Bias in Large Language Models* can be found on [arXiV]((https://arxiv.org/abs/2306.15087))
+Our paper, *WinoQueer: A Community-in-the-Loop Benchmark for Anti-LGBTQ+ Bias in Large Language Models* can be found on [arXiV]((https://arxiv.org/abs/2306.15087))!
 
 ## Benchmark
 The winoqueer benchmark dataset is at: `data/winoqueer_final.csv.` 
