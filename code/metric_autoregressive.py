@@ -148,7 +148,7 @@ def mask_unigram(data, lm, n=1):
         # start at 1 because BOS token is prepended
         for i in range(1, N):
             sent1_masked_token_ids = sent1_token_ids.clone().detach()[:, :template1[i]]
-            sent2_masked_token_ids = sent2_token_ids.clone().detach()[:, :template1[i]]
+            sent2_masked_token_ids = sent2_token_ids.clone().detach()[:, :template2[i]]
             total_masked_tokens += 1
             
             score1 = get_log_prob_unigram_autoregressive(sent1_masked_token_ids, sent1_token_ids, template1[i], lm)
