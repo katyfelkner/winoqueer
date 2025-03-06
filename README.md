@@ -55,3 +55,5 @@ Usage: `python finetune_opt_350m.py <path to model dir>  <path to training data>
 ## General
 
 `code/requirements.txt`: versioning information for python packages. We used Python 3.9.12 with pip 22.0.4.
+
+This repository and the WinoQueer dataset are released open-source and free for anyone to use, according to the MIT License.
